@@ -4,8 +4,11 @@
 *
 * 09/23/24 - Created by ChatGPT
 * 10/17/24 - Modified by jhui
+* 04/11/24 - Modified by Chirayu Jain and Akash Goyal
 */
 
+#include <vector> //Add during modification - 04/11
+#include <string> //Add during modification - 04/11
 #ifndef _HASH_TABLE
 #define _HASH_TABLE
 #define _HASH_TABLE_SIZE 101
@@ -41,6 +44,8 @@ private:
 public:
 	// Default constructor
 	HashTable();
+	// Destructor
+	~HashTable(); //Add during modification - 04/11
 
 	/**
 	*

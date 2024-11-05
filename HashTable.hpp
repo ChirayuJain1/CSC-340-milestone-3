@@ -10,6 +10,10 @@
 #define _HASH_TABLE
 #define _HASH_TABLE_SIZE 101
 
+#include <string>
+#include <vector>
+
+
 using IntVector = std::vector<int>;
 
 // Define a structure for a node in the hash table
@@ -41,6 +45,9 @@ private:
 public:
 	// Default constructor
 	HashTable();
+
+	// Destructor
+    // ~HashTable();
 
 	/**
 	*
